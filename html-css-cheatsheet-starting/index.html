@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My own css selector cheatsheet! | by VectorXz</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <h1>My CSS Selector Cheat Sheet</h1>
+        <h3>by VectorXz</h3>
+
+        <h3>Basic</h3>
+        <table border="1" class="cheatsheet-table">
+            <tr>
+                <th width="20%">Selector</th>
+                <th width="40%">Description</th>
+                <th width="30%">Selected element example</th>
+            </tr>
+            <tr>
+                <td>HTML tag</td>
+                <td>select element by HTML tag (Ex. h1,p,div)</td>
+                <td class="code-example">
+                    &lt;p&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>.class-name</td>
+                <td>select element by class name</td>
+                <td class="code-example">
+                    &lt;element class="class-name"&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>#element-id</td>
+                <td>select element by element id</td>
+                <td class="code-example">
+                    &lt;element id="element-id"&gt;
+                </td>
+            </tr>
+        </table>
+
+        <h3>Advanced</h3>
+        <table border="1" class="cheatsheet-table">
+            <tr>
+                <th width="20%">Selector</th>
+                <th width="40%">Description</th>
+                <th width="30%">Selected element example</th>
+            </tr>
+            <tr>
+                <td>html-tag.class-name</td>
+                <td>select element by HTML tag (Ex. h1,p,div) with specific class name</td>
+                <td class="code-example">
+                    &lt;p class="class-name"&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>.class-name html-tag</td>
+                <td>select child html element under an element with a specific class name</td>
+                <td class="code-example">
+                    &lt;element class="class-name"&gt;
+                    &lt;p&gt;Here&lt;/p&gt;
+                    &lt;/element&gt;
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.cheatsheet-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.code-example {
+    font-family: monospace;
+    background-color: #0d1117;
+    color: white;
+}
+
+tr > td:nth-child(1) {
+    font-weight: bold;
+}
+
+th {
+    background-color: aquamarine;
+}
